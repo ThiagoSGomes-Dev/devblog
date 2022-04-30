@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body
+{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #e6e6e6;
+    padding-top: 200px
+}
+
+
+/* *** REDES SOCIAIS *** */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container{
+  position: fixed;
+  width: 65px;
+  margin-top: 75px;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,.4);
+}
+.container a{
+  position: relative;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  color: white;
+  line-height: 20px; /*60px*/
+  padding-left: 30%;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+}
+.container a i{
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+.container a span{
+  position: relative;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 18px 60px;
+  border-radius: 3px;
+  transition: all .4s;
+  opacity: 0;
+  visibility: hidden;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,.4);
+}
+.container a span:before{
+  position: absolute;
+  content: '';
+  top: 49%;
+  left: -8px;
+  height: 18px;
+  width: 18px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.container a:nth-child(1),
+.container a:nth-child(1) span,
+.container a:nth-child(1) span:before{
+  background: #4267B2;
+}
+.container a:nth-child(2),
+.container a:nth-child(2) span,
+.container a:nth-child(2) span:before{
+  background: #1DA1F2;
+}
+.container a:nth-child(3),
+.container a:nth-child(3) span,
+.container a:nth-child(3) span:before{
+  background: #E1306C;
+}
+.container a:nth-child(4),
+.container a:nth-child(4) span,
+.container a:nth-child(4) span:before{
+  background: #2867B2;
+}
+.container a:nth-child(5),
+.container a:nth-child(5) span,
+.container a:nth-child(5) span:before{
+  background: #333;
+}
+.container a:nth-child(6),
+.container a:nth-child(6) span,
+.container a:nth-child(6) span:before{
+  background: #ff0000;
+}
+.container a:hover span{
+  margin-left: 75px; /*75px*/
+  opacity: 1;
+  visibility: visible;
+}
+/* *** REDES SOCIAIS *** */
+
+
+#aria-logo
+{
+    width: 230px;
+    padding: 5px;
+}
+/*
+    **** Layout ****
+*/
+#area-cabecalho
+{
+    position: fixed;
+    top: 0;
+    background-color: #f7b600;
+    width: 100%;
+    text-align: center;
+}
+#area-menu
+{
+    padding: 40px;
+}
+#area-principal
+{
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#area-postagens
+{
+    width: 660px;
+    float: left;
+}
+.postagem
+{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+#area-lateral
+{
+    width: 240px;
+    float: right;
+}
+.span .anco-alfa
+{
+    padding: 12px;
+    color: #f7b600;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.anco
+{
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 12px;
+    color: #ffffff;
+}
+#area-postagens a:link, #area-postagens a:visited
+{
+  color: #f7b600;
+}
+.a-aside
+{
+  color: #f7b600;
+}
+.a-aside:hover
+{
+  text-decoration: underline;
+}
+#area-postagens a:hover
+{
+  text-decoration: underline;
+}
+.anco:hover
+{
+    color: #f7b600;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: 2s solid ;
+}
+.conteudo-lateral
+{
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 1250px;
+}
+.postagem-lateral
+{
+  font-size: 0.8em;
+}
+.data-postagem
+{
+  font-size: 0.8em;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+#rodape
+{
+  width: 920px;
+  height: 150px;
+  text-align: center;
+  clear: right;
+  width: 920px;
+  background: rgb(223, 216, 216);
+  padding: 15px 0;
+}
+#rodape ul
+{
+  list-style: none;
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 650px;
+}
+#rodape ul li
+{
+  padding: 10px;
+}
+#rodape ul li i
+{
+  color: #000;
+}
+h2
+{
+  color: #f7b600;
+}
+h3
+{
+   background: #c4c4c4;
+   padding: 5px;
+   font-size: 1.2em;
+}
+h5
+{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 320px;
+}
+hr
+{
+  margin: 10px 0;
+}
+
