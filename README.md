@@ -8,7 +8,7 @@ Dev Blog
 
 >## Blog usando HTML - CSS 
 
->### Assista ao Vídeo do projeto
+>### Assista ao Vídeo do projeto!
 <br>
 <br>
 <div align="center">
