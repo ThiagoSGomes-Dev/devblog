@@ -1,4 +1,6 @@
-#  Dev - Blog
+# Projeto em construção...
+
+##  Dev - Blog
 
 ## Blog usando HTML - CSS 
 ### Assista ao Vídeo do projeto
