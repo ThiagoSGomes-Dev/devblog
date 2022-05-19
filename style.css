@@ -208,7 +208,7 @@ body
   width: 920px;
   height: 150px;
   text-align: center;
-  clear: right;
+  clear: both;
   width: 920px;
   background: rgb(223, 216, 216);
   padding: 15px 0;
@@ -217,9 +217,9 @@ body
 {
   list-style: none;
   display: flex;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 650px;
+  position: relative;
+  bottom: 150px;
+  margin: 0px 650px;
 }
 #rodape ul li
 {
@@ -241,9 +241,10 @@ h3
 }
 h5
 {
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 320px;
+  display: inline;
+  position: relative;
+  line-height: 150px;
+  margin-right: 50px;
 }
 hr
 {
